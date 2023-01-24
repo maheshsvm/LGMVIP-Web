@@ -1,0 +1,22 @@
+.welcome {
+  margin-bottom: 30px;
+}
+.container {
+  width: auto;
+  height: 550px;
+  margin: auto;
+}
+
+.keys button {
+  width: 70px;
+  height: 70px;
+}
+
+.input input {
+  width: 30vw;
+  margin-bottom: 5px;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+}
