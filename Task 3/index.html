@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Student Registration Form</h1>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="left">
+            <form  id="form">
+                <div class="formitem">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter name"><br>
+                </div>
+
+                <div class="formitem">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" placeholder="Enter E-mail"><br>
+                </div>
+
+                <div class="formitem">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob"><br>
+                </div>
+
+                <div class="gender">
+                    <label for="">Gender</label>
+                    <div class="option">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <label>Skills</label>
+                    <div class="skilloption">
+                        <input type="checkbox" name="checkbox" id="c++" value="c++">
+                        <label for="c++">C++</label>
+
+                        <input type="checkbox" name="checkbox" id="Java" value="Java">
+                        <label for="Java">Java</label>
+
+                        <input type="checkbox" name="checkbox" id="Python" value="python">
+                        <label for="Python">Python</label>
+                    </div>
+                </div>
+
+                <input type = "submit" class="btn" id="enroll" value="Enroll Student">
+                <button class="btn" id="clear">Clear</button>
+            </form>
+        </div>
+
+        <div id="mid">
+        </div>
+
+        <div id="right">
+            <h2>Enrolled Students</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

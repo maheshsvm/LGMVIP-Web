@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    color: yellowgreen;
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    word-spacing: 4px;
+}
+
+.container{
+    margin: 20px 0;
+    display: flex;
+    min-height: 550px;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+#left  , #right{
+    /* border: 2px solid black; */
+    width: 45%;
+    min-height: 100%;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#mid{
+    position: absolute;
+    height: 70%;
+    width: 4px;
+    /* border: 2px solid black; */
+    background-color: yellowgreen;
+    border-radius: 5px;
+}
+
+.formitem{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.formitem input{
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid gray;
+
+}
+
+#dob{
+    position: absolute;
+    right: 150px;
+}
+
+.gender{
+    display: flex;
+    width: 50%;
+    margin: 25px 20px;
+    justify-content: space-between;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    width: 77%;
+    margin: 20px 15px;
+}
+
+.skilloption label{
+    margin-left:  10px;
+}
+
+.btn{
+    padding: 5px 15px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: aqua;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#clear{
+    background-color: red;
+}
+
+#right h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    border: 2px solid greenyellow;
+    padding: 10px;
+    width: 65%;
+    text-align: center;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
